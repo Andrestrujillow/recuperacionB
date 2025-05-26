@@ -7,10 +7,10 @@ use Illuminate\Database\Eloquent\Model;
 class book extends Model
 {
     function author(){
-        return $this->belongsToMany(goal::class);
+        return $this->belongsToMany(author::class);
     }
 
     function copy(){
-        return $this->hasMany(goal::class);
+        return $this->hasMany(copy::class);
     }
 }

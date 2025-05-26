@@ -7,10 +7,10 @@ use Illuminate\Database\Eloquent\Model;
 class copy extends Model
 {
     function user(){
-        return $this->belongsToMany(goal::class);
+        return $this->belongsToMany(user::class);
     }
 
     function book(){
-        return $this->belongsTo(goal::class);
+        return $this->belongsTo(book::class);
     }
 }

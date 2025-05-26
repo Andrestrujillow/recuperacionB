@@ -14,15 +14,15 @@ class OrmController extends Controller
     {
         // 1. Obtener los libros escritos por un autor (author -> books)
         //$authors = author::find(1);
-        // return $authors->books;
+        //return $authors->books;
 
         // 2. Obtener el autor de un libro (book -> author)
         //$books = book::find(1);
-        // return $books->author;
+        //return $books->author;
 
         // 3. Obtener las copias de un libro (book -> copies)
-        // $books = book::find(1);
-        // return $books->copies;
+        //$books = book::find(1);
+         //return $books->copies;
 
         // 4. Obtener el libro de una copia (copy -> book)
         // $copies = copy::find(1);

@@ -7,6 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 class author extends Model
 {
      function book(){
-        return $this->belongsToMany(goal::class);
+        return $this->belongsToMany(book::class);
     }
 }
