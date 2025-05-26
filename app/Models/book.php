@@ -11,6 +11,6 @@ class book extends Model
     }
 
     function copy(){
-        return $this->hasone(goal::class);
+        return $this->hasMany(goal::class);
     }
 }
